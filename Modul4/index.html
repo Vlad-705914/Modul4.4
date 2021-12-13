@@ -24,27 +24,12 @@
     <!-- HERO -->
 
     <section class="hero">
-      <div class="hero-card-img">
-        <img
-          class="hero-card"
-          src="./img/hero.jpg"
-          width="1440"
-          alt="Футуристический объект"
-        />
-      </div>
-
-      <div class="container">
-        <a class="hero-logo" href="">logo</a>
-        <h1 class="hero-title">PARTNER WITH KONSTUCT</h1>
-        <ul class="hero-list">
-          <li class="hero-item">
-            <p class="hero-text">
-              An award-winning construction management firm
-            </p>
-            <p class="hero-desc">SCROLL DOWN</p>
-          </li>
-        </ul>
-      </div>
+      <a class="hero-logo" href="./">
+        <img class="hero-img" src="./img/logokonst.svg" alt="icon" />
+      </a>
+      <h1 class="hero-title">PARTNER WITH KONSTUCT</h1>
+      <p class="hero-text">An award-winning construction management firm</p>
+      <p class="hero-desc">SCROLL DOWN</p>
     </section>
 
     <!-- HEADER -->
@@ -52,7 +37,9 @@
     <header class="header-page">
       <div class="container">
         <nav class="header-nav">
-          <a class="header-logo" href="./img/KONSTRU T.png">logo</a>
+          <a class="header-logo" href="./">
+            <img src="./img/logokonst.svg" alt="" />
+          </a>
           <ul class="header-list">
             <li class="header-item">
               <a class="header-link" href="" id="home">HOME</a>
@@ -79,8 +66,8 @@
     <section class="story-section">
       <div class="container">
         <h2 class="story-title">OUR STORY</h2>
-        <ul class="story-list">
-          <li class="story-item">
+        <div class="story-main-wrapper">
+          <div class="story-wrapper">
             <p class="story-text">
               Founded in 2011 by John Mathew Smith, Konstruct has become the
               number one construction management firm
@@ -92,20 +79,21 @@
               sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
               aliquam erat.
             </p>
-          </li>
+          </div>
+          <ul class="story-list">
+            <li class="story-item card">
+              <img src="./img/plan1.jpg" alt="Рабочий стол" />
+            </li>
 
-          <li class="story-list card">
-            <img src="./img/plan1.jpg" alt="Рабочий стол" />
-          </li>
+            <li class="story-item card">
+              <img src="./img/laptop.jpg" alt="Клавиатура" />
+            </li>
 
-          <li class="story-list card">
-            <img src="./img/laptop.jpg" alt="Клавиатура" />
-          </li>
-
-          <li class="story-list card">
-            <img src="./img/deliver1.jpg" alt="Фрагмент тротуарной плитки" />
-          </li>
-        </ul>
+            <li class="story-item card">
+              <img src="./img/deliver1.jpg" alt="Фрагмент тротуарной плитки" />
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -113,67 +101,77 @@
 
     <section class="ours-section">
       <div class="container">
-        <section class="">
-          <div class="ours-about">
-            <h2 class="ours-title">OUR CAPABILITIES</h2>
-            <p class="ours-text">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat.
-            </p>
-            <button class="button" type="button">ALL SERVICES</button>
-          </div>
+        <div class="ours-about">
+          <h2 class="ours-title">OUR CAPABILITIES</h2>
+          <p class="ours-text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+          </p>
+          <a class="button" type="">ALL SERVICES</a>
+        </div>
+      </div>
+    </section>
 
-          <ul class="ours-list">
-            <li class="ours-item">
-              <h3 class="ours-subtitle">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-              <p class="ours-text">
+    <!-- service -->
+
+    <section class="service">
+      <div class="container">
+        <ul class="service-list">
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-img" src="./img/bit3.svg" alt="icon" />
+              <h3 class="service-subtitle">
+                PROJECT AND CONSTRUCTION MANAGEMENT
+              </h3>
+              <p class="service-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat.
               </p>
-            </li>
+            </div>
+          </li>
 
-            <li class="ours-item">
-              <h3 class="ours-subtitle">STRUCTURE AUDIT AND MAINTENANCE</h3>
-              <p class="ours-text">
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-img" src="./img/bit1.svg" alt="icon" />
+              <h3 class="service-subtitle">STRUCTURE AUDIT AND MAINTENANCE</h3>
+              <p class="service-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat.
               </p>
-            </li>
+            </div>
+          </li>
 
-            <li class="ours-item">
-              <h3 class="ours-subtitle">FACTORY CONSTRUCTION AND MODELING</h3>
-              <p class="ours-text">
+          <li class="service-item">
+            <div class="service-card">
+              <img class="service-img" src="./img/bit2.svg" alt="icon" />
+              <h3 class="service-subtitle">
+                FACTORY CONSTRUCTION AND MODELING
+              </h3>
+              <p class="service-text">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat.
               </p>
-            </li>
-          </ul>
-        </section>
+            </div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <!--PROPOSAL -->
 
     <section class="proposal">
-      <img src="./img/sity.jpg" alt="" />
-      <div class="container">
-        <h2 class="proposal-title">Want to build something amazing?</h2>
+      <h2 class="proposal-title">Want to build something amazing?</h2>
 
-        <button class="button" type="button">GET IN TOUCH</button>
-      </div>
+      <a class="button button-pro" type="button">GET IN TOUCH</a>
     </section>
 
     <!-- FORMA -->
 
     <section class="forma">
-      <div class="container">
-        <h3 class="forma-title">Newsletter Signup</h3>
-        <a class="ours-button" href="">SIGNUP</a>
-      </div>
+      <h3 class="forma-title">Newsletter Signup</h3>
     </section>
 
     <!-- FOOTER -->
